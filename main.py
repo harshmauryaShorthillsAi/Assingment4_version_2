@@ -22,7 +22,7 @@ def main():
     Returns:
         None
     """
-    file_path = "/home/shtlp_0128/Documents/Assignment_3_python-main/files/sample.pdf"  # Change this to the file you want to process
+    file_path = "/home/shtlp_0128/Documents/Assignment_3_python-main/files/Networks 1.pptx"  # Change this to the file you want to process
 
     # Determine the file type and use the appropriate loader
     if file_path.endswith(".pdf"):
@@ -61,8 +61,9 @@ def main():
     file_storage.store(extracted_text, os.path.basename(file_path), 'text')
 
     # Save the extracted images
+    image_data= None
     if images:
-        file_storage.store(images, os.path.basename(file_path), 'image')
+     image_data =  file_storage.store(images, os.path.basename(file_path), 'image')
 
     # Save the extracted URLs (if any)
     if urls:
@@ -82,7 +83,7 @@ def main():
 
     # Store the extracted images in the SQL database
     if images:
-        sql_storage.store("image", images)
+        sql_storage.store("image", image_data)
 
     # Store the extracted URLs in the SQL database
     if urls:
