@@ -6,7 +6,7 @@
 
  ![image](https://github.com/user-attachments/assets/3b554239-fc57-4281-a742-f08ea5232806)
 
--run main script
+- run main script
 
 python3 main.py
 
