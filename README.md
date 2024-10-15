@@ -2,7 +2,7 @@
    ## Overview
 - The data_extractor directory houses a set of tools specifically designed to extract data from various file formats and efficiently store the resulting information.
 
-#project Structure
+# project Structure
 
  ![image](https://github.com/user-attachments/assets/3b554239-fc57-4281-a742-f08ea5232806)
 
