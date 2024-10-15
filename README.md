@@ -6,6 +6,23 @@
 
  ![image](https://github.com/user-attachments/assets/3b554239-fc57-4281-a742-f08ea5232806)
 
+-run main script
+
+python3 main.py
+
+- for Running pytest module use command 
+  python3 -m pytest data_extractor/tests/test_extractor.py -vv
+
+ -dependecies 
+
+    install the all dependencies mentioned in requirement.txt
+               python-docx
+               pyPDF2
+               python-pptx
+               pdfplumber
+               fitz
+    
+
 
 
 ## How to Use
