@@ -4,40 +4,8 @@
 
 #project Structure
 
-  Assignment4_version_2
-│
-├── Data_extractor
-│   ├── docx_extractor.py
-│   ├── pdf_extractor.py
-│   ├── ppt_extractor.py
-│   └── extractor.py
-│
-├── File_loaders
-│   ├── docx_loader.py
-│   ├── file_loader.py
-│   ├── pdf_loader.py
-│   └── ppt_loader.py
-│
-├── Storage
-│   ├── file_storage.py
-│   ├── sql_storage.py
-│   └── storage.py
-│
-├── tests
-│   └── test_extractor.py
-│
-├── Extracted_data
-│
-├── Files
-│   └── containfiles
-│
-├── Test_files
-│   ├── Docx
-│   ├── Pdf
-│   └── pptx
-│
-├── main.py
-└── requirements.txt
+ ![image](https://github.com/user-attachments/assets/3b554239-fc57-4281-a742-f08ea5232806)
+
 
 
 ## How to Use
