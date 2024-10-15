@@ -2,6 +2,44 @@
    ## Overview
 - The data_extractor directory houses a set of tools specifically designed to extract data from various file formats and efficiently store the resulting information.
 
+#project Structure
+
+  Assignment4_version_2
+│
+├── Data_extractor
+│   ├── docx_extractor.py
+│   ├── pdf_extractor.py
+│   ├── ppt_extractor.py
+│   └── extractor.py
+│
+├── File_loaders
+│   ├── docx_loader.py
+│   ├── file_loader.py
+│   ├── pdf_loader.py
+│   └── ppt_loader.py
+│
+├── Storage
+│   ├── file_storage.py
+│   ├── sql_storage.py
+│   └── storage.py
+│
+├── tests
+│   └── test_extractor.py
+│
+├── Extracted_data
+│
+├── Files
+│   └── containfiles
+│
+├── Test_files
+│   ├── Docx
+│   ├── Pdf
+│   └── pptx
+│
+├── main.py
+└── requirements.txt
+
+
 ## How to Use
 - To begin, clone the repository and set the file_path variable to the location of the main file. Afterward, run the main.py script to initiate the data extraction process.
 
