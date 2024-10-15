@@ -13,7 +13,7 @@ python3 main.py
 - for Running pytest module use command 
   python3 -m pytest data_extractor/tests/test_extractor.py -vv
 
- -dependecies 
+ - dependecies 
 
     install the all dependencies mentioned in requirement.txt
                python-docx
@@ -22,7 +22,9 @@ python3 main.py
                pdfplumber
                fitz
     
-
+- clone the repo from:
+- 
+  https://github.com/harshmauryaShorthillsAi/Assingment4_version_2/tree/main
 
 
 ## How to Use
