@@ -3,3 +3,4 @@ pyPDF2
 python-pptx
 pdfplumber
 fitz
+tkinter
