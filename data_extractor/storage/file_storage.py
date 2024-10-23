@@ -11,6 +11,7 @@ class FileStorage(Storage):
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
+
     def store(self, data, filename: str, data_type: str):
         """Save data based on type: 'text', 'image', 'url', or 'table'."""
         if data_type == 'text':
@@ -23,6 +24,9 @@ class FileStorage(Storage):
             self.save_tables(data, filename)
         else:
             raise ValueError("Unsupported data type. Use 'text', 'image', 'url', or 'table'.")
+        
+
+               
 
     def save_text(self, data, filename: str):
         """Save text data as a .txt file."""
